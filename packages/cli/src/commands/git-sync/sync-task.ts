@@ -1,6 +1,7 @@
 import { z } from "zod";
 
 import { isSyncTaskFailed, SyncTask } from "@metabase/client/domain/git-sync";
+import { FailedResultError } from "@metabase/client/errors";
 import type { PollOptions } from "@metabase/client/poll";
 
 import type { ResourceView } from "../../output/view";
@@ -28,7 +29,7 @@ export function throwIfFailedTask(final: SyncTask | null, verb: string): void {
     return;
   }
   const detail = final.error_message ? `: ${final.error_message}` : "";
-  throw new Error(`git-sync ${verb} ${final.status}${detail}`);
+  throw new FailedResultError(`git-sync ${verb} ${final.status}${detail}`);
 }
 
 export function formatSyncTask(task: SyncTask): string {
