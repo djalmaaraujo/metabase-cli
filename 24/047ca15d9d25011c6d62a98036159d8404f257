@@ -1,0 +1,47 @@
+packages/client/src/auth/pasted-redirect.ts
+  s_c3703b43ebe54a::t_beffbd848c28d0 1-95,98
+  s_c3703b43ebe54a::t_3bb5ab11c1f660 96-97,99
+packages/client/src/auth/pasted-redirect.test.ts
+  s_c3703b43ebe54a::t_438c891f92eaba 1-127
+  s_c3703b43ebe54a::t_c06e6f6e4b4304 128-145
+README.md
+  s_c3703b43ebe54a::t_c4e8427d34ee0b 105-106,111-118,124
+packages/cli/src/commands/auth/login.ts
+  s_c3703b43ebe54a::t_c384adfde31cd4 4,27,32,74,85-89,101,158,317-339,345-348
+packages/cli/src/output/prompt.test.ts
+  s_c3703b43ebe54a::t_fa25e22a01b204 1-2,23-24,27,43-64,142-211
+packages/cli/src/output/prompt.ts
+  s_c3703b43ebe54a::t_9148c16956bff1 10-11,14-15,37-42,109-140
+packages/cli/src/runtime/process.test.ts
+  s_c3703b43ebe54a::t_f58d40f39792fe 6,85-117
+packages/cli/src/runtime/process.ts
+  s_c3703b43ebe54a::t_8716dfdea5863a 185-215
+packages/client/README.md
+  s_c3703b43ebe54a::t_a9d8b53dfa9bdb 57-60
+packages/client/src/auth/callback-server.test.ts
+  s_c3703b43ebe54a::t_fdc898ad85429f 1-2,15-28,98-118
+packages/client/src/auth/callback-server.ts
+  s_c3703b43ebe54a::t_e0b2c5d8f40178 8,22,29-36,47-51,53,108-111
+packages/client/src/auth/oauth-login.test.ts
+  s_c3703b43ebe54a::t_848aa2be520c98 57,100-151,343-453
+packages/client/src/auth/oauth-login.ts
+  s_c3703b43ebe54a::t_8d30d4e815e500 10,12,28-37,42-46,105-109,113,129-169
+packages/client/src/index.ts
+  s_c3703b43ebe54a::t_e9ab6f7c3110fb 48-53
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "24047ca15d9d25011c6d62a98036159d8404f257",
+  "prompts": {},
+  "sessions": {
+    "s_c3703b43ebe54a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6d369145-eb38-4fa2-84ae-98782a00bc1e",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Djalma Araújo <djalma@nossomos.cc>"
+    }
+  }
+}
